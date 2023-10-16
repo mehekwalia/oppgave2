@@ -1,0 +1,18 @@
+section{
+    height: 68vh;
+    background-color: black;
+    display: flex;
+}
+article{
+    background-size:cover ;
+    background-position: center;
+    flex:1;
+    padding:1rem;
+    align-items: flex-end;
+    color: white;
+    transition: 1s;
+}
+article:hover{
+    flex:3;
+    font-size: 250%;
+}
